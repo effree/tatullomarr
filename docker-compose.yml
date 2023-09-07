@@ -1,0 +1,16 @@
+version: "2"
+services:
+  webserver:
+    image: tatullomarr
+    ports:
+      - "7829:7829"
+    volumes:
+      - ./app:/var/www/html
+    environment:
+      SITE_URL: http://localhost:7829
+    networks:
+      - test
+
+networks:
+  test:
+    external: true
