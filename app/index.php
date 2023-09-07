@@ -32,6 +32,8 @@
     <!-- Microsoft -->
     <meta name="application-name" content="Tautulli">
     <meta name="msapplication-config" content="http://localhost:8181/images/favicon/browserconfig.xml?v=2.6.0">
+
+    <meta http-equiv="refresh" content="30">
 </head><body>
   <?php include('http://localhost:8181/home_stats'); ?>
 </body></html>
